@@ -52,7 +52,7 @@ jQuery( function( $ ) {
 			initialEditType: 'wysiwyg',
 			previewStyle: 'vertical',
 			initialValue: toastUiEditorData.content,
-			theme: 'light',//getPreferredScheme === 'dark' ? 'dark' : 'light',
+			theme: getPreferredScheme === 'dark' ? 'dark' : 'light',
 			plugins: [
 				toastui.Editor.plugin.colorSyntax,
 				[toastui.Editor.plugin.chart, {
