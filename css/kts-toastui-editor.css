@@ -37,6 +37,9 @@
 .toastui-editor-dark .toastui-editor-tooltip .arrow {
 	background-color: transparent;
 }
+button:disabled {
+	opacity: .3;
+}
 
 /* Custom menu buttons */
 .toastui-editor-defaultUI-toolbar button {
